@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+
+.page {
+  width: 100%;
+  max-width: 1377px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  color: #000;
+}
