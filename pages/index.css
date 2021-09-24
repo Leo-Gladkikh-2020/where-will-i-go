@@ -6,7 +6,7 @@
   max-width: 1377px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #000;
 }
 
@@ -79,28 +79,28 @@
 }
 
 .place__description {
-  padding: 38px 0 0 74px;
+  padding: 38px 0 0 76px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .place__title {
-  font-size: 36px;
+  font-size: 35px;
   line-height: 40px;
+  letter-spacing: .6px;
   font-weight: 700;
 }
 
 .place__text {
-  max-width: 401px;
+  max-width: 408px;
+  padding-bottom: 90px;
 }
 
 .place__text_type-forest {
-  padding-bottom: 90px;
 }
 
 .place__text_type-mountains {
-  padding-bottom: 90px;
 }
 
 .place__text_type-sea {
@@ -108,8 +108,9 @@
 }
 
 .place__paragraph {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
+  letter-spacing: 1px;
   margin-bottom: 22px;
 }
 
@@ -383,18 +384,92 @@
 
 .footer__copyright {
   margin: 0;
-  font-size: 35px;
+  font-size: 36px;
   line-height: 16px;
+  letter-spacing: .7px;
   font-weight: 700;
 }
 
 .form {
   display: grid;
-  grid-template-columns: minmax(688px, 1fr) minmax(688px, 1fr);
+  grid-template-columns: 1fr 1fr;
+}
+
+.form__container {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__travel {
+  max-width: 382px;
+  padding-left: 73px;
+}
+
+.form__title {
+  max-width: 270px;
+  padding-top: 113px;
+  font-size: 39px;
+  line-height: 45px;
+  letter-spacing: .7px;
+  font-weight: bold;
+}
+
+.form__main-container {
+  margin-top: 85px;
+}
+
+.form__input-container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.form__item {
+  width: 367px;
+  padding: 9px 0 7px 17px;
+  background-color: #fffafa;
+  font-size: 16px;
+}
+
+.form__item_drm_header {
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.form__item_drm_text {
+  margin-bottom: 16px;
+  height: 94px;
+  border: 0;
+}
+
+.form__handlers {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+
+.form__button {
+  padding: 8px 11px;
+  display: block;
+  align-self: flex-end;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  line-height: 19px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.form__button:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 
 .form__image {
   width: 100%;
-  height: 660px;
+  height: 670px;
   object-fit: cover;
 }
