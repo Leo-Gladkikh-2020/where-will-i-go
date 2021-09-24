@@ -1,0 +1,19 @@
+.place__description {
+  padding: 67px 0 0 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+@media screen and (max-width: 1023px) {
+  .place__description {
+    padding-left: 36px;
+  }
+}
+    
+@media screen and (max-width: 767px) {
+ .place__description {
+    padding-top: 37px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.form__travel {
+  max-width: 382px;
+  padding-left: 73px;
+}
+
+@media screen and (max-width: 1023px) {
+  .form__travel {
+    padding-left: 25px;
+  }
+}

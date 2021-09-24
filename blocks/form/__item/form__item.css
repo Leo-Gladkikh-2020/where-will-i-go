@@ -1,0 +1,13 @@
+.form__item {
+  width: 367px;
+  padding: 9px 0 7px 17px;
+  background-color: #fffafa;
+  font-size: 16px;
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .form__item {
+    width: 260px;
+  }
+}

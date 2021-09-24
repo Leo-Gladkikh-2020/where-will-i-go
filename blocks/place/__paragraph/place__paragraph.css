@@ -1,0 +1,11 @@
+.place__paragraph {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 22px;
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}

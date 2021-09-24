@@ -1,0 +1,15 @@
+.header__list {
+  list-style: none;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  margin: 0;
+  padding: 0;
+}
+   
+@media screen and (max-width: 767px) {
+  .header__list {
+    gap: 20px;
+    grid-template-columns: minmax(min-content, max-content);
+  }
+}
