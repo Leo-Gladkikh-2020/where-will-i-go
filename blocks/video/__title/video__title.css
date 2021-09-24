@@ -1,12 +1,11 @@
 .video__title {
-  z-index: 4;
+  z-index: 2;
   position: relative;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 39px;
   font-weight: bold;
   margin: 137px 0 0 75px;
 }
-
 @media screen and (max-width: 1279px) {
   .video__title {
     margin-top: 85px; 
@@ -17,18 +16,16 @@
   .video__title {
     margin-top: 65px; 
     margin-left: 30px;
-    font-size: 32px;
+    font-size: 32px
   }
 }
-
 @media screen and (max-width: 767px) {
   .video__title {
     margin-top: 35px; 
     margin-left: 30px;
-    font-size: 17px;
+    font-size: 17px
   }
 }
-
 @media screen and (max-width: 500px) {
   .video__title {
     margin-top: 15px; 
