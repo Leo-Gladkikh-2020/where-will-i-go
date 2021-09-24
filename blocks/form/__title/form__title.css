@@ -1,0 +1,23 @@
+.form__title {
+  max-width: 270px;
+  padding-top: 113px;
+  font-size: 39px;
+  line-height: 45px;
+  letter-spacing: .7px;
+  font-weight: bold;
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+  .form__title {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__title {
+    padding-top: 30px;
+    font-size: 22px;
+  }
+}

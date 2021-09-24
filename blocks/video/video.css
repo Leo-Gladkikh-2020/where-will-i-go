@@ -1,0 +1,25 @@
+.video {
+  position: relative;
+  padding-bottom: 48.87%; 
+  height: 0;
+  overflow: hidden;
+}
+
+/*.video::after {
+  content: '';
+  background: url(../images/video.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.video:hover:after {
+  opacity: 0;
+}*/

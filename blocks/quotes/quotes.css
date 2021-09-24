@@ -1,0 +1,10 @@
+.quotes { 
+  max-width: calc(100% - 2*72px);
+  margin: auto
+}
+
+@media screen and (max-width: 767px) {
+  .quotes {
+    max-width: calc(100% - 2*30px);
+  }
+}

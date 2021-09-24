@@ -1,0 +1,15 @@
+.place__title {
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: .6px;
+  font-weight: 700;
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  margin: 0;
+}
+  
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: 25px;
+    grid-area: title;
+  }
+}
