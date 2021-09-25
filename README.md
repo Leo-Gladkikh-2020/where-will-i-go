@@ -19,4 +19,4 @@
 
 ### GitHub Pages
 
-* [Ссылка на проект на GitHub Pages]()
+* [Ссылка на проект на GitHub Pages](https://leo-gladkikh-2020.github.io/where-will-i-go/index.html)
